@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>전화기</title>
+  <script>
+    function dial(num) {
+      document.getElementById("number").value += num;
+    }
+    function clearNum() {
+      document.getElementById("number").value = "";
+    }
+  </script>
+</head>
+<body>
+  <h1>전화기</h1>
+  <input type="text" id="number" readonly><br>
+  <button onclick="dial('1')">1</button>
+  <button onclick="dial('2')">2</button>
+  <button onclick="dial('3')">3</button><br>
+  <button onclick="dial('4')">4</button>
+  <button onclick="dial('5')">5</button>
+  <button onclick="dial('6')">6</button><br>
+  <button onclick="dial('7')">7</button>
+  <button onclick="dial('8')">8</button>
+  <button onclick="dial('9')">9</button><br>
+  <button onclick="clearNum()">C</button>
+  <button onclick="dial('0')">0</button>
+</body>
+</html>

@@ -1,0 +1,54 @@
+/* 전체 기본 설정 */
+body {
+  font-family: '맑은 고딕', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+/* ✅ GNB 스타일 */
+.gnb {
+  background-color: #0055aa;
+  padding: 10px 0;
+}
+
+.gnb ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.gnb ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.gnb ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.gnb ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ✅ 본문 내용 */
+.content {
+  padding: 40px;
+  text-align: center;
+}
+
+/* ✅ Footer 스타일 */
+footer {
+  background-color: #ddd;
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
